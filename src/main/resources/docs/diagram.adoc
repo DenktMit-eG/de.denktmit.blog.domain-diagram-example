@@ -1,0 +1,11 @@
+= Diagram Example
+
+// Configuration for external diagram rendering service:
+:diagram-server-url: https://kroki.io/
+:diagram-server-type: kroki_io
+
+== Domain Diagram
+
+This is a simple asciidoc example to illustrate how to efficiently generate a domain class diagram from code.
+
+include::domain.puml[]
