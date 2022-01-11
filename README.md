@@ -114,9 +114,9 @@ conveniently available as a maven plugin:
     </executions>
 </plugin>
 ```
-Rendering a PlantUML diagram into a PNG file actually requires (graphviz)[https://graphviz.org] to be installed on 
+Rendering a PlantUML diagram into a PNG file actually requires [GraphViz](https://graphviz.org) to be installed on 
 the build host. Since this can be an issue especially in CI-environments, asciidoc includes support to use external 
-services to render PlantUML and other diagram types. (Kroki)[https://korki.io] is one of these services which can 
+services to render PlantUML and other diagram types. [Kroki](https://korki.io) is one of these services which can 
 also be self-hosted to avoid sending sensitive data to public webservices. In our example we configured the public Kroki
 instance to be used to render our diagram within the asciidoc:
 
